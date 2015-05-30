@@ -1,5 +1,5 @@
 var Words = function (input) {
-    var slicedStringArray = input.split(/[ ]+|\n|\t/);
+    var slicedStringArray = input.split(/\s+/);
     var StringObj = {};
 
     for (var i = 0; i < slicedStringArray.length; i++) {
